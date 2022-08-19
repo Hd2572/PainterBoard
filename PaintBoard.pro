@@ -28,10 +28,12 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mypaint.cpp
+        mypaint.cpp \
+    container.cpp
 
 HEADERS += \
-        mypaint.h
+        mypaint.h \
+    container.h
 
 FORMS += \
         mypaint.ui
